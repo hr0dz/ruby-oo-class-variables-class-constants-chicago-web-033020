@@ -13,11 +13,7 @@ class Shoe
  
   
     
-  def brand
-    BRANDS.clear
-    BRANDS << brand
-    BRANDS.uniq
-    end
+BRANDS.uniq
   
   #def cobble
    # self.condition = "new"
