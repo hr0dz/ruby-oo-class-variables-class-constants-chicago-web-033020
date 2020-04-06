@@ -12,8 +12,7 @@ class Shoe
  end
  
   
-    
-BRANDS.uniq!
+
   
   #def cobble
    # self.condition = "new"
