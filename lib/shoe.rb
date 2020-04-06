@@ -10,8 +10,7 @@ class Shoe
    @brand = brand
    BRANDS << brand
  end
- 
-    BRANDS = []
+
     
     def brand
      BRANDS.uniq
