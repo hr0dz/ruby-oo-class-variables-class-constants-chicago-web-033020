@@ -10,12 +10,11 @@ class Shoe
    @brand = brand
    BRANDS << brand
  end
-
+ 
+  BRANDS.clear
     
-    def size=(size)
-     @size = size
-     BRANDS << size
-     BRANDS.uniq
+  def brand
+    BRANDS
     end
   
   #def cobble
