@@ -13,7 +13,7 @@ class Shoe
  
   
     
-BRANDS.uniq
+BRANDS.uniq!
   
   #def cobble
    # self.condition = "new"
