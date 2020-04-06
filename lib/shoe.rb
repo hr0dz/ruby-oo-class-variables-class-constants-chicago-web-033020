@@ -11,9 +11,10 @@ class Shoe
    BRANDS << brand
  end
  
-  BRANDS.clear
+  
     
   def brand
+    BRANDS.clear
     BRANDS
     end
   
