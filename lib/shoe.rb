@@ -15,6 +15,7 @@ class Shoe
     def size=(size)
      @size = size
      BRANDS << size
+     BRANDS.uniq
     end
   
   #def cobble
