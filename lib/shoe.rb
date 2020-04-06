@@ -13,7 +13,7 @@ class Shoe
  
     BRANDS = []
     
-    def brand(brand)
+    def brand
      BRANDS.uniq
     end
   
