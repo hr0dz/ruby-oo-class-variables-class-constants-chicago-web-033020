@@ -12,7 +12,7 @@ class Shoe
  end
 
     
-    def brand
+    def size=(size)
      BRANDS.uniq
     end
   
