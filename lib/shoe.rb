@@ -15,7 +15,7 @@ class Shoe
     
   def brand
     BRANDS.clear
-    BRANDS
+    BRANDS.uniq
     end
   
   #def cobble
